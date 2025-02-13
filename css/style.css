@@ -1,0 +1,1006 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    display: inline-block ;
+    width:100%;
+}
+.container{
+    padding-left: 15px ;
+    padding-right: 15px ;
+    width: 100%;
+    max-width: 1170px ;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+    position:sticky;
+    top: -150px ;
+    transition: 0.5s ;
+    z-index: 999 ;
+    background-color: white ;
+}
+.header.sticky-header{
+    position: fixed;
+    top: 0;
+    left: 0 ;
+    box-shadow: 0 0 10px 2px gray;
+}
+.header .logo{
+    width: auto;
+    float: left;
+}
+.logo img{
+    width: 100px ;
+    float: left;
+}
+.menu{
+    width: auto;
+    float: left;
+    margin-top: 25px ;
+    margin-left: 50px ;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: 20px ;
+    position: relative;
+    padding-bottom: 30px ;
+}
+.menu ul li:hover .dropdown{
+    display: block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px ;
+    font-weight: 500 ;
+}
+.club ul li:hover .dropdown1{
+    display: block;
+}
+.dropdown1{
+    width: 200px ;
+    position: absolute;
+    top: 0;
+    left: 180px  !important ;
+    display: none ;
+    background-color: black;
+    padding-top: 20px ;
+}
+.club1{
+    width: 100%;
+    float: left;
+    background-color:
+}
+.club1 ul li {
+    width: 100%;
+    float: left;
+    list-style: none;
+transition: 0.5s;
+}
+.club1 ul li a{
+    text-decoration: none !important;
+    color: rgb(202, 201, 201)  ;
+    padding: 15px ;
+}
+.club1 ul li a:hover{
+    text-decoration: underline !important;
+    text-underline-offset: 10px ;
+    color: white ;
+}
+.club1 ul li:hover {
+    transform: translateX(20px );
+    transition: 0.5s;
+}
+
+.social-media{
+    width: auto;
+    float:right;
+padding-top: 10px ;
+}
+.social-media ul li{
+    display: inline-block;
+    margin-left: 20px ;
+}
+.social-media ul li a{
+    width: 50px ;
+    height: 50px ;
+    border-radius: 50%;
+    float: left;
+    display: inline-block;
+    background-color: rgb(233, 233, 233);
+    color: black;
+text-align: center;
+line-height: 50px ;
+}
+
+.news{
+    width: 100%;
+    float: left;
+}
+.news ul li{
+    display: inline-block;
+    margin-right: 100px ;
+    font-size: 80px ;
+    font-weight: 600;
+    color: gray;
+    opacity: 0.6 ;
+}
+.menu ul li:hover a{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.menu ul li i{
+    font-size: 30px ;
+    vertical-align: middle;
+    
+}
+marquee{
+    background-color: black;
+    padding: 30px 0;
+}
+.dropdown{
+    width: 200px ;
+    background-color: black !important;
+    color: gray;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: none ;
+    transition: 0.5s;
+    z-index: 2;
+    padding-top: 20px;
+}
+.club{
+    width: 100%;
+    float: left;
+    background-color:
+}
+.club ul li {
+    width: 100%;
+    float: left;
+    list-style: none;
+transition: 0.5s;
+}
+.club ul li a{
+    text-decoration: none !important;
+    color: rgb(202, 201, 201)  ;
+    padding: 15px ;
+}
+.club ul li a:hover{
+    text-decoration: underline !important;
+    text-underline-offset: 10px ;
+    color: white ;
+}
+.club ul li:hover {
+    transform: translateX(20px );
+    transition: 0.5s;
+}
+.club ul li i{
+    width: auto;
+    float: right;
+    padding-right: 20px ;
+    font-size: 20px ;
+    vertical-align: middle;
+}
+.facebook:hover{
+    color: blue;
+}
+.sky:hover{
+    color: rgb(3, 181, 252) !important;
+}
+.red:hover{
+    color: red !important;
+}
+.insta:hover{
+    color: orangered !important;
+}
+.main-lead{
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding-bottom: 80px ;
+    margin-top: -4px;
+}
+.lead{
+  margin-left: -15px ;
+  margin-right: -15px ;
+    float: left;
+}
+.lead1{
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+.lead-image{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.lead-image:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.lead-image img{
+    width: 100%;
+    float: left;
+    transition: 0.5s;
+}
+.lead-text{
+    width: 100%;
+    float: left;
+    padding-top: 30px ;
+}
+.date{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.date .seven{
+    font-size: 50px ;
+    font-weight: 600;
+    
+}
+.date a{
+    display: block;
+    text-decoration: none;
+    color: white ;
+}
+.world{
+    width: 80%;
+    float: left;
+}
+
+.world .become{
+    text-decoration: none;
+    color:white ;
+    font-size: 35px ;
+    font-weight: 600;
+    line-height: 45px ;
+    margin-bottom: 20px ;
+}
+.world p{
+    color: rgb(196, 196, 196) ;
+    font-size: 18px ;
+    padding: 20px 0;
+    line-height: 30px ;
+}
+.like{
+    width: 100%;
+    float: left;
+}
+.like ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.like ul li a{
+text-decoration: none;
+color: rgb(196, 196, 196) ;
+font-size: 15px ;
+transition: 0.5s;
+}
+.like ul li a:hover{
+   color: rgb(4, 4, 184);
+   transition: 0.5s;
+    }
+.like ul li span{
+    font-size: 30px;
+    color: rgb(196, 196, 196) ;
+}
+.player{
+    width: 100%;
+    float: left;
+    margin-bottom: 30px ;
+}
+.player-image{
+    width: 35%;
+    float: left;
+    height: 190px;
+    overflow: hidden;
+}
+.player-image:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+} 
+.player-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+    float: left;
+    transition: 0.5s;
+}
+.player-text{
+    width: 65%;
+    float: left;
+    padding-top: 30px ;
+    padding-left: 20px ;
+}
+.new{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px ;
+}
+.new ul li{
+    display: inline-block;
+    margin-right: 10px ;
+   
+}
+.new ul li a{
+    text-decoration: none;
+    color: white ;
+    font-size: 15px ;
+    transition: 0.5s;
+}
+.new ul li:hover a{
+    color: rgb(4, 4, 184);
+    transition: 0.5s;
+}
+.new ul li span{
+    color: white ;
+    font-size: 30px ;
+}
+.new .aug{
+    color: rgb(196, 196, 196) ;
+}
+.big{
+    width: 100%;
+    float: left;
+}
+.big a{
+    text-decoration: none;
+    color: white ;
+    font-size: 30px ;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.big:hover a{
+    color: rgb(196, 196, 196) ;
+    transform: 0.5s;
+}
+.lead2{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.news1{
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 30px ;
+    left: 30px ;
+}
+.news1 a{
+    background-color: red;
+    padding: 5px 10px ;
+    border-radius: 20px ;
+    color: white ;
+    text-decoration: none;
+    font-size: 12px ;
+}
+.main-article{
+width: 100%;
+float: left;
+padding-bottom: 100px ;
+}
+.article{
+width: 100%;
+float: left;
+}
+.row{
+    margin-left: -15px ;
+    margin-right: -15px ;
+}
+.article1{
+width: 33.3%;
+float: left;
+padding: 15px ;
+}
+.article2{
+width:100% ;
+float: left;
+}
+.article-image{
+width: 100%;
+float: left;
+overflow: hidden;
+}
+.article-image:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.article-image img{
+max-width: 100%;
+float: left;
+transition: 0.5s;
+}
+.article-text{
+width: 100%;
+float: left;
+}
+.article-list{
+width: 100%;
+float: left;
+padding: 20px 0;
+}
+.article-list ul li{
+display: inline-block;
+margin-right: 10px ;
+}
+.article-list ul li a{
+text-decoration: none;
+color: black;
+font-size: 15px ;
+}
+.article-list ul li:hover a{
+color: rgb(4, 4, 218);
+}
+.article-list ul li span{
+width: 4px ;
+height: 4px ;
+border-radius: 50%;
+background-color: gray ;
+display: inline-block;
+vertical-align: middle;
+}
+.bold{
+font-weight: 600;
+}
+.popular{
+width: 100%;
+float: left;
+text-align: center;
+padding-top: 100px ;
+}
+.popular span{
+    font-size: 15px ;
+    color: gray ;
+    font-weight: 600;
+    margin-bottom: 20px ;
+    text-transform: uppercase;
+}
+.popular h1{
+    font-size: 60px ;
+margin-bottom: 50px ;
+}
+ul.slick-dots li{
+    width: 8px ;
+    height: 8px ;
+    border-radius: 50%;
+    margin-bottom:-30px ; 
+     background-color:rgb(196, 196, 196) ;
+}
+ul.slick-dots li button{
+    display: none ;
+}
+li.slick-active{
+    background-color: rgb(100, 100, 239) !important;
+}
+.mainbox{
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+.banner2{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.banner2-image{
+    width: 100%;
+    float: left;
+}
+.banner2-image img{
+    width: 100%;
+}
+.banner2-text{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: white ;
+    position: absolute;
+    top: 100px ;
+    left: 0;
+    right: 0;
+}
+.banner2-text a{
+    width: 80px ;
+    height: 80px ;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+   background: transparent;
+   color: white ;
+   text-align: center;
+   line-height: 80px ; 
+   border: 2px solid white ;
+   margin-bottom: 20px ;
+   transition: 0.5s;
+}
+.banner2-text a:hover{
+    transform: translateY(20px);
+    transition: 0.5s;
+}
+.banner2-text span{
+    width: 100%;
+    text-align: center;
+display: inline-block;
+margin-top: 20px ;
+margin-bottom: 20px ;
+font-weight: 600;
+}
+.banner2-text h1{
+    font-size: 60px ;
+    max-width: 900px ;
+    margin: auto;
+}
+.latest{
+    width: 100%;
+    float: left;
+   
+}
+.latest1{
+    margin-left: -10px ;
+    margin-right: -1px ;
+    float: left;
+    column-count: 3;
+}
+.latest2{
+    margin-bottom: 30px ;
+    display: inline-block;
+}
+.latest3{
+    width: 100%;
+    float: left;
+    
+}
+.latest-text{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 100px ;
+}
+.latest span{
+    font-size: 15px ;
+    color: gray ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.latest-text h1{
+    font-size: 60px ;
+    margin-bottom: 50px ;
+    margin-top: 20px ;
+}
+.latest-image{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.latest-image img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: 0.5s;
+}
+.latest-image:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.information{
+    width: 100%;
+    float: left;
+}
+.line1{
+    width: 50px ;
+    height: 2px ;
+    background-color: black;
+    display: inline-block;
+}
+.line{
+    width: 100%;
+    float: left;
+  padding: 20px 0;
+}
+.line ul li{
+    display: inline-block;
+    margin-right: 10px ;
+}
+.line ul li a{
+   text-decoration: none;
+   color: gray ; 
+}
+.line ul li a:hover{
+    color: rgb(4, 4, 218) !important;
+}
+
+.black a{
+    color: black !important;
+    font-weight: 600;
+}
+
+
+.circle span{
+    width: 4px ;
+    height: 4px ;
+    border-radius: 50%;
+    display:inline-block;
+    vertical-align:middle ;
+    background-color: gray ;
+}
+.league{
+    width: 100%;
+    float: left;
+    padding-left: 70px ;
+}
+.league a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 25px ;   
+}
+.main-blog{
+    width: 100%;
+    float: left;
+    background-color: #f2f6f8;
+    padding: 100px 0;
+}
+.policy{
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.newsletter h1{
+    font-size: 200px ;
+    color: gray ;
+    margin-top: 50px ;
+    opacity: 0.1;
+}
+.blog-text{
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    right: 0;
+}
+.plane{
+    width: auto;
+    text-align: center;
+    margin-bottom: 30px ;
+}
+.plane a{
+    width: 50px ;
+    height: 50px ;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FF5712;
+    color: white ;
+    text-align: center;
+    line-height: 50px ;
+}
+.stories{
+    width:auto;
+text-align: center;
+margin-bottom: 40px ;
+}
+.stories h1{
+    max-width: 400px ;
+    margin: auto;
+}
+.email{
+    width: auto;
+    
+    text-align: center;
+    position: relative;
+margin-bottom: 20px ;
+}
+.email input{
+    padding: 20px ;
+    border-radius: 40px ;
+    width: 600px ;
+    border: none ;
+    margin: auto;
+    box-shadow: 0 0 10px 2px rgb(225, 224, 224) ;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.subscribe{
+    width: auto;
+    float: right;
+    border-left: 1px solid gray ;
+    position: absolute;
+    right: 300px  ;
+    top: 20px ;
+    z-index: 4;
+
+}
+.subscribe a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-left: 20px ;
+}
+.subscribe i{
+    margin-right: 20px ;
+}
+.checkbox{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.checkbox a{
+    text-decoration: none;
+    color: gray ;
+    font-size: 15px ;
+}
+.checkbox span{
+    text-decoration: underline;
+    text-underline-offset: 5px ;
+}
+.checkbox a:hover span{
+    color: black;
+}
+.main-trend{
+    width: 100%;
+    float: left;
+    padding-bottom: 100px ;
+}
+.row1{
+    margin-left: -10px ;
+    margin-right: -10px ;
+}
+.trend{
+    width: 100%;
+    float: left;
+}
+.trend1{
+    width: 25%;
+    float: left;
+   padding: 10px ;
+}
+.trend2{
+    width: 100%;
+    float: left;
+    position: relative;
+   
+}
+.trend-image{
+    width: 100%;
+    height: 270px ;
+    float: left;
+    overflow: hidden;
+}
+.trend-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+    transition: 0.5s;
+}
+.trend2:hover .trend-image img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.trend-text{
+    width: 100%;
+    float: left;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+background-color: rgba(0, 0, 0, 0.226);  
+    color: white !important;
+    padding: 20px ;
+
+}
+.trend-list{
+    padding-top: 80px ;
+}
+.trend-list ul li{
+    display: inline-block;
+    margin-right: 10px ;
+    padding: 20px 0 ;
+}
+.trend-list ul li a{
+    text-decoration: none;
+ color: rgb(216, 214, 214) ;
+ font-size: 15px ;
+}
+.trend-list ul li span{
+    width: 4px;
+    height: 4px ;
+    border-radius: 50%;
+    display: inline-block;
+background-color: rgb(214, 214, 214) ;
+vertical-align: middle;
+}
+.white a{
+    color: white !important ;
+    font-weight: 600;
+}
+.young{
+    width: 100%;
+    float: left;
+}
+.young h2{
+    color: white !important;
+    font-size: 20px ;
+}
+.arrow{
+width: 100%;
+float: left;    
+}
+.arrow i{
+    font-size: 20px ;
+    color: white ;
+    padding-top: 10px ;
+}
+.trend2:hover .arrow i{
+    width: 50px !important;
+    transition: 0.5s;
+}
+.discuss{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 100px ;
+}
+.discuss span{
+    font-size: 15px ;
+    color: gray ;
+    font-weight: 600;
+    margin-bottom: 20px ;
+}
+.discuss h1{
+font-size: 60px ;
+margin-bottom: 50px ;
+}
+.footer{
+    width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+.footer1{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.footer-logo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px ;
+}
+.footer-logo img{
+    width: 100px ;
+}
+.sponsor{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px ;
+}
+.sponsor ul li{
+    display: inline-block;
+    margin-right: 30px ;
+}
+.sponsor a{
+    font-size: 15px ;
+    font-weight: 600;
+    color: white ;
+    text-decoration: none;
+    position: relative;
+} 
+.sponsor a:after{
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    content: "";
+    right: 0;
+    bottom: -10px;
+    position: absolute;
+    transition: 0.4s;
+}
+
+.sponsor a:before{
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    content: "";
+    left: 0;
+    top: -10px;
+    position: absolute;
+    transition: 0.4s;
+}
+.sponsor a:hover:after, .sponsor a:hover:before{
+    width: 100%;
+}
+.internet{
+    width:100%;
+    text-align: center;
+    margin-bottom: 50px ;
+}
+.internet ul li{
+    display: inline-block;
+    margin-right: 15px ;
+}
+.internet ul li a{
+    text-decoration: none;
+    color: white;
+    width: 50px ;
+    height: 50px ;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid gray  ;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px ;
+    font-size: 20px ;
+}
+.internet ul li:hover a{
+    color: rgb(3, 3, 146) ;
+}
+.copyright{
+    width: 100%;
+    float: left;
+    border-top: 1px solid gray ;
+}
+.copyright p{
+    padding: 20px ;
+    color: rgb(190, 190, 190) ;
+}
+.fix{
+    width: auto ;
+    float: right;
+    position: fixed;
+    top: 200px ;
+    right: 0;
+}
+.fix ul li{
+    list-style: none ;
+    margin-bottom: 5px ;
+    position: relative;
+}
+.fix ul li a{
+    width: 50px ;
+    height: 50px ;
+    text-align: center;
+    line-height: 50px ;
+    display: inline-block;
+    background-color: #FF5712;
+    color: white ;
+    z-index: 1;
+    position:relative;
+}
+.dropdown3{
+    width: 400px ;
+    color: white ;
+    position: absolute;
+    left: -100px;
+    top: 0 ;
+    right: 0;
+    display: none ;
+}
+
+.dropdown3 p{
+padding: 18px; 
+background-color: yellow;
+color: black ;
+font-size: 12PX ;
+margin-right: 50px ;
+}
+.fix ul li:hover .dropdown3{
+display: block;
+}
+.fix ul li a:hover{
+    padding-right:20px ;
+    transition: 0.5s;
+    width:50px;
+}
